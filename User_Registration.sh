@@ -17,4 +17,6 @@ name="^[A-Z][A-Za-z0-9]{2,}$"
 echo -e "Enter your valid First name \n:- First name should start with Cap and has minimum 3 characters"
 read fname
 check $fname $name
-
+echo -e "Enter your valid Last name \n:- Last name should start with Cap and has minimum 3 characters"
+read lname
+check $lname $name
